@@ -1,12 +1,7 @@
 
-=======
 body {
   background-color: rgba(172, 40, 108, 0.39);
 }
->>>>>>> eeebab05f2914175ac4dfbf84a7382f0f424822e
-
-<<<<<<< HEAD
-</ul>
 
 ul {
   list-style-type: none;
@@ -31,7 +26,6 @@ ul li a {
 ul li a:hover {
   background-color: #111111;
 }
-=======
 h1 {
   color: white;
   text-align: center;
@@ -40,4 +34,3 @@ h1 {
 p {
   font-family: verdana;
 }
->>>>>>> eeebab05f2914175ac4dfbf84a7382f0f424822e
