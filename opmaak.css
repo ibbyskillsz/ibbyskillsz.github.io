@@ -1,7 +1,37 @@
+
+=======
 body {
   background-color: rgba(172, 40, 108, 0.39);
 }
+>>>>>>> eeebab05f2914175ac4dfbf84a7382f0f424822e
 
+<<<<<<< HEAD
+</ul>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+=======
 h1 {
   color: white;
   text-align: center;
@@ -10,3 +40,4 @@ h1 {
 p {
   font-family: verdana;
 }
+>>>>>>> eeebab05f2914175ac4dfbf84a7382f0f424822e
