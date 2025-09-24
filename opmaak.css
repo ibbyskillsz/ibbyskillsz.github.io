@@ -3,7 +3,7 @@ body {
   background-color: rgba(172, 40, 108, 0.39);
 }
 
-ul {
+ul.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ ul {
   background-color: #333333;
 }
 
-ul li {
+ul.menu li {
   float: left;
 }
 
