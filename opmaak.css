@@ -1,6 +1,6 @@
 
 body {
-  background-color: rgba(172, 40, 108, 0.39);
+  background-color: rgba(172, 40, 40, 0.39);
 }
 
 ul.menu {
@@ -71,4 +71,21 @@ iframe {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    background: black; /* fallback kleur */
+}
+
+canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* zodat je content boven de galaxy blijft */
+}
+
 
