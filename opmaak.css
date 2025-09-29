@@ -71,10 +71,3 @@ iframe {
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-<style>
-p {
-  background-image: url('Photo by <a href="https://unsplash.com/@shapelined?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Shapelined</a> on <a href="https://unsplash.com/photos/a-black-and-white-photo-of-a-wall-_JBKdviweXI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-      ');
-}
-</style>
-
