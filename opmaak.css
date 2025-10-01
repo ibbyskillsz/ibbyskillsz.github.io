@@ -34,7 +34,7 @@ h1 {
 
 p {
   font-family: verdana;
-  min-width: 100%;
+  width: 100%;
 }
 
 #compressie {
