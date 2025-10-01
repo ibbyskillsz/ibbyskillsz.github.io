@@ -41,7 +41,7 @@ p {
   margin-right: 10px;
 }
 
-/* Cards (witte blokken met schaduw) */
+/* Cards */
 .card {
   background: white;
   padding: 20px;
@@ -58,7 +58,7 @@ p {
   border-radius: 8px;
 }
 
-/* Video netjes gecentreerd en afgerond */
+/* Video netjes erin gezet en afgerond */
 iframe {
   display: block;
   margin: 0 auto;
