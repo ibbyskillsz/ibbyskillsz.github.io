@@ -15,6 +15,13 @@ ul.menu li {
   float: left;
 }
 
+.index {
+  background-image: url("achtergrond wit.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+
+
 ul li a {
   display: block;
   color: white;
