@@ -1,7 +1,4 @@
-
-body {
-  background-color: rgba(172, 40, 40, 0.39);
-}
+/* Dit zijn de codes voor mijn menu */
 
 ul.menu {
   list-style-type: none;
@@ -14,6 +11,7 @@ ul.menu {
 ul.menu li {
   float: left;
 }
+/* Dit zijn de codes voor mijn achtergrond */
 
 .index {
   background-image: url("achtergrond wit.jpg");
@@ -28,10 +26,7 @@ ul li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
 
-ul li a:hover {
-  background-color: #111111;
 }
 h1 {
   color: rgb(10, 79, 86);
