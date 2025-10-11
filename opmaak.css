@@ -84,3 +84,6 @@ img {
 margin: 0;
 padding: 0;
 }
+footer { /*Kleur van de footer en hoe groot hij is*/
+  background-color: rgb(41, 161, 113);
+  height: 12vh;
