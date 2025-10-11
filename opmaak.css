@@ -88,12 +88,12 @@ iframe {
 }
 
 footer { /*Kleur van de footer en hoe groot hij is*/
-  background-color: aliceblue;
+  background-color: rgb(38, 215, 189);
   height: 12vh;
 }
 
 /*Er zit geen ruimte tussen de andere elementen en ik heb geen excacte plek uitgekozen de margin en padding zijn allebnei 0*/
 
-img {
+img {,
 margin: 0;
 padding: 0;]
