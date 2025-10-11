@@ -73,22 +73,9 @@ iframe {
   max-width: 900px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-.center-image { /*Zorgt ook voor plaatje in het midden*/
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 
-/*Er zit geen ruimte tussen de andere elementen en ik heb geen excacte plek uitgekozen de margin en padding zijn allebnei 0*/
+  /*Er zit geen ruimte tussen de andere elementen en ik heb geen excacte plek uitgekozen de margin en padding zijn allebnei 0*/
 }
 img {
 margin: 0;
 padding: 0;
-}
-footer { /*Kleur van de footer en hoe groot hij is*/
-  background-color: rgb(41, 161, 113);
-  height: 12vh;
-  }
-    .center-text {
-    text-align: center; /*Zorgt voor dat de tekst in midden komt te staan*/
-}
