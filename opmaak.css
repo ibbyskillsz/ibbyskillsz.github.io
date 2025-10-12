@@ -1,5 +1,4 @@
-/* Dit zijn de codes voor mijn menu */
-
+/*Hier bepaal ik de kleur van mijn navigatie balk, hoe hoog en laag hij moet en ik heb geen aparte stijl gedaan*/
 ul.menu {
   list-style-type: none;
   margin: 0;
@@ -8,11 +7,12 @@ ul.menu {
   background-color: #333333;
 }
 
+/*Dit staat er zodat mijn menubalk naar links gaat*/
 ul.menu li {
   float: left;
 }
-/* Dit zijn de codes voor mijn achtergrond */
 
+/* Hier zorg ik ervoor dat in al me html bestanden dezelfde achtergrond heb */
 .index {
   background-image: url("achtergrond wit.jpg");
 background-repeat: no-repeat;
@@ -28,30 +28,19 @@ ul li a {
   text-decoration: none;
 
 }
+/* Hier zie je welke kleur ik heb gedaan als ik "h1" gebruik en dat die tekst in het midden moet en welke lettertype het heeft */
 h1 {
   color: rgb(10, 79, 86);
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Hier zie je welke lettertype ik heb gedaan voor als ik "p" gebruik en de grootte*/
 p {
   font-family: verdana;
   width: 100%;
 }
 
-#compressie {
-  margin-right: 10px;
-}
-
-/* Cards */
-.card {
-  background: white;
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 900px;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
 
 /* Afbeeldingen in cards */
 .card img {
@@ -60,22 +49,21 @@ p {
   border-radius: 8px;
 }
 
-/* Video netjes erin gezet en afgerond */
+/* Video netjes erin gezet */
 iframe {
   display: block;
   margin: 0 auto;
   border-radius: 12px;
 }
+/* Zorgt ervoor dat er cards in me html zitten en ook de kleur die ik wil*/
 .card {
   background: rgb(42, 149, 118);
   padding: 20px;
   margin: 20px auto;
   max-width: 900px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-
-  
-  }
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
 
   .center-text {
     text-align: center; /*Zorgt voor dat de tekst in midden komt te staan*/
@@ -90,4 +78,10 @@ iframe {
 footer { /*Kleur van de footer en hoe groot hij is*/
   background-color: rgb(17, 188, 139);
   height: 12vh;
+}
+
+.right-image{ /*Dat de plaatje naar links staat*/
+  display: block;
+  margin: auto;
+  margin-right: auto;
 }
