@@ -80,7 +80,7 @@ footer { /*Kleur van de footer en hoe groot hij is*/
   height: 12vh;
 }
 
-.right-image{ /*Dat de plaatje naar links staat*/
+.right-image{ /*Dat de plaatje rechts staat*/
   display: block;
   margin: auto;
   margin-right: auto;
