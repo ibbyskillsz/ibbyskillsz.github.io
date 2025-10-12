@@ -69,7 +69,7 @@ iframe {
     text-align: center; /*Zorgt voor dat de tekst in midden komt te staan*/
 }
 
-.center-image { /*Zorgt ook voor plaatje in het midden*/
+.center-image { /*Zorgt ervoor dat de plaatje in het midden staat*/
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -80,7 +80,7 @@ footer { /*Kleur van de footer en hoe groot hij is*/
   height: 12vh;
 }
 
-.right-image{ /*Dat de plaatje rechts staat*/
+.right-image{ /*Zorgt ervoor dat de plaatje rechts staat*/
   display: block;
   margin: auto;
   margin-right: auto;
