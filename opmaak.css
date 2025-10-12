@@ -7,12 +7,12 @@ ul.menu {
   background-color: #333333;
 }
 
-/*Dit staat er zodat mijn menubalk naar links gaat*/
+/*Dit staat er zodat mijn menubalk links staat*/
 ul.menu li {
   float: left;
 }
 
-/* Hier zorg ik ervoor dat in al me html bestanden dezelfde achtergrond heb */
+/* Dit zorgt ervoor dat in al me html bestanden ik dezelfde achtergrond heb */
 .index {
   background-image: url("achtergrond wit.jpg");
 background-repeat: no-repeat;
@@ -22,9 +22,9 @@ background-size: cover;
 }
 ul li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  color: white; /*Witte tekst kleur in de navbar*/
+  text-align: center; /*Zorgt ervoor dat de tekst in me menu staat*/
+  padding: 14px 16px; /*Dat zorgt ervoor dat het 14 pixels naar boven of onder is en 16 pixels naar de zijkant*/
   text-decoration: none;
 
 }
@@ -42,20 +42,20 @@ p {
 }
 
 
-/* Afbeeldingen in cards */
+/* Zorgt ervoor dat ik afbeeldingen in mijn cards kan zetten*/
 .card img {
   float: left;
   margin-right: 20px;
   border-radius: 8px;
 }
 
-/* Video netjes erin gezet */
+/* Zorgt ervoor dat me video's er netjes in zitten */
 iframe {
   display: block;
   margin: 0 auto;
   border-radius: 12px;
 }
-/* Zorgt ervoor dat er cards in me html zitten en ook de kleur die ik wil*/
+/* Zorgt ervoor dat er cards in me html zitten en ook de achtergrond kleur van mijn cards*/
 .card {
   background: rgb(42, 149, 118);
   padding: 20px;
@@ -76,12 +76,6 @@ iframe {
 }
 
 footer { /*Kleur van de footer en hoe groot hij is*/
-  background-color: rgb(17, 188, 139);
+  background-color: rgba(0, 0, 0, 0);
   height: 12vh;
-}
-
-.right-image{ /*Zorgt ervoor dat de plaatje rechts staat*/
-  display: block;
-  margin: auto;
-  margin-right: auto;
 }
