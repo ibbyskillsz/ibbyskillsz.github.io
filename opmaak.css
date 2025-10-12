@@ -80,6 +80,6 @@ footer { /*Kleur van de footer en hoe groot hij is*/
   height: 6vh;
 }
 
-ul li a:hover {
+ul li a:hover { /*Zodat er hoveren zijn bij me menu*/
   background-color: rgb(0, 0, 0);
 }
