@@ -1,13 +1,14 @@
-<!DOCTYPE html> <!--dit is de homepage-->
+<!DOCTYPE html> <!-- Dit vertelt de browser dat dit een HTML-pagina is. -->
 <html>
 <head>
+  <!-- Hier koppel ik me HTML aan me CSS-bestand, zodat me opmaak en kleuren goed werken. -->
 <link rel="stylesheet" href="opmaak.css">
 </head>
 
 <body class="index">
 
     
-<!--Dit is me menubalk-->
+  <!-- Dit is de menubalk bovenaan de pagina met links naar andere delen van de site. -->
      <ul class="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="kleurmodellen.html">Kleurmodellen</a></li>
@@ -16,11 +17,14 @@
         <li><a href="IUV.html">Invoer - Verwerking - Uitvoer</a></li>
      </ul>
      
-     <!--Titel-->
+  <!-- De hoofdtitel van de pagina -->
      <h1>De Kleurmodellen</h1>
 
 
-<!-- Hier heb ik een div met class gebruikt en dan de class card zodat mijn tekst in een card komt te staan  -->
+<!-- Een <div> gebruik je om een stukje van je website apart te zetten. 
+Daarin kun je tekst, plaatjes of andere dingen plaatsen. 
+De class "card" geeft dit vakje een naam zodat de CSS weet hoe het eruit moet zien. 
+In dit geval zorgt "card" ervoor dat dit onderdeel eruitziet als een mooi kaartje met eigen opmaak.-->
 <div class="card">
 <h2>Wat zijn kleurmodellen?</h2><!--Hier heb ik h2 gebruikt, en hoe hoger de getal hoe kleiner de tekst word en dit is een soort tussenkop dus ik heb niet te groot gedaan en niet te klein-->
 
@@ -28,6 +32,7 @@
 Op die manier weet elk apparaat: dit is kleur X, op welke manier dan ook.</p><!--Informatie die de titel ondersteunt en hier heb ik de "p" gebruikt zodat me tekst normaal is en niet te groot-->
 </div>
 
+  <!-- Nieuwe kaart met uitleg over waarom kleurmodellen belangrijk zijn -->
      <div class="card">
       <h2>Waarom is het belangrijk?</h2>
       <ul>
@@ -41,7 +46,7 @@ Op die manier weet elk apparaat: dit is kleur X, op welke manier dan ook.</p><!-
    <div class="card">
   <h2 class="center-text">Kleurmodellen die je vaak tegenkomt</h2>  
 
-  <h3>1. RGB-model</h3><!--Hier heb ik "h3" gebruikt omdat ik de tekst iets kleiner wou dan een tussenkopje-->
+  <h3>1. RGB-model</h3><!--Hier heb ik "h3" gebruikt omdat ik de tekst iets kleiner wou dan een tussenkopje, een soort subkopje.-->
   <p>
   RGB staat voor Rood (Red), Groen (Green) en Blauw (Blue).
   Dit model werkt met licht: je mengt rood, groen en blauw licht om allerlei kleuren te maken. Als je alle drie de kleuren vol aanzet, krijg je <b>wit</b>. Zet je ze allemaal uit, dan krijg je <b>zwart</b>.
@@ -97,6 +102,7 @@ Voorbeeld:  #FFFFFF is wit, #FF0000 is rood, #00FF00 is groen.
 <div class="card">
 <img src="pixels.jpg" style="float: right;" width="400"/>
 
+<!-- Uitleg over pixels -->
 <h2>Wat zijn pixels?</h2>
 <p>Pixels zijn kleine, gekleurde puntjes waaruit digitale beelden zijn opgebouwd. Hoe meer pixels een afbeelding heeft, hoe scherper het beeld wordt.
   
@@ -108,6 +114,8 @@ Voorbeeld:  #FFFFFF is wit, #FF0000 is rood, #00FF00 is groen.
   Vectorbestanden, zoals <b>EPS</b> en <b>AI</b>, bestaan uit lijnen en punten en blijven altijd scherp, ongeacht het formaat.
 </p>
 </div>
+
+<!-- Uitleg over resolutie -->
 <div class="card">
 <h2 class="center-text">Wat houdt resolutie in?</h2>
 <p class="center-text"> De resolutie geeft aan uit hoeveel pixels een digitaal beeld bestaat. Hoe hoger de resolutie, hoe meer pixels er per centimeter of inch in een afbeelding zitten. Dat zorgt voor een scherper en gedetailleerder beeld.</p> <!--Hier heb ik de class "center text" gebruikt zodat me tekst in het midden komt te staan en dit staat gekoppeld aan mijn css-->
@@ -119,10 +127,10 @@ Voorbeeld:  #FFFFFF is wit, #FF0000 is rood, #00FF00 is groen.
 </ul>
 <p class="center-text">Kort gezegd: <b>hoe hoger de resolutie, hoe scherper het resultaat.</b></p>
 <img src="resolutie.jpg" style="text-align: center;" class="center-image" width="500"/><!--Hier heb ik een plaatje ingevoegd door img en width te gebruiken en heb ik de groote aangepast en met class is hij gekoppeld aan mijn css-->
-
+    <!-- Deze afbeelding staat in het midden door de class 'center-image' die gekoppeld is aan de CSS. -->
 </div>
 
- <!-- Video -->
+  <!-- Video en extra uitleg, 'iframe' laat een YouTube-video zien op de pagina.-->
     <div class="card">
  <h2 class="center-text">Video / Tekst: Uitleg over de kleurmodellen</h2>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-b2pAEHEQZc?si=vetoX58IfVoPn0FZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <!--Filmpje die ik met iframe heb gebruikt-->
