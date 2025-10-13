@@ -41,14 +41,6 @@ p {
   width: 100%;
 }
 
-
-/* Zorgt ervoor dat ik afbeeldingen in mijn cards kan zetten*/
-.card img {
-  float: left;
-  margin-right: 20px;
-  border-radius: 8px;
-}
-
 /* Zorgt ervoor dat me video's er netjes in zitten */
 iframe {
   display: block;
